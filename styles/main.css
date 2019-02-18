@@ -1,0 +1,83 @@
+/* ======================= Global Styles */
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: "Helvetica Neue", "Ariel", sans-serif;
+  margin: 0px
+}
+
+/* =========== Small Screens */
+@media only screen and (max-width: 768px) {
+  .card {
+    width: auto;
+    margin: 15px
+  }
+}
+
+/* =========== Large Screens */
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 60%;
+    margin: 15px auto 15px auto
+  }
+}
+
+
+
+/* ======================= Cards */
+.card {
+  padding: 15px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px grey
+}
+
+.card h1 {
+  margin: 0px 0px 0px 0px;
+  font-size: 36px
+}
+
+.card h2 {
+  margin: 0px 0px 0px 0px;
+  font-size: 26px;
+  text-transform: lowercase
+}
+
+.card h2::after {
+  content: "."
+}
+
+.card h3 {
+  margin: 10px 0px 0px 0px;
+  font-size: 20px
+}
+
+.card p {
+  margin: 10px 0px 0px 0px;
+}
+
+
+
+/* ======================= Per-Card Colors */
+#header {
+  background-color: #0088e2;
+  color: #FFFFFF
+}
+
+#intro {
+  background-color: #f399cf;
+  color: #000000
+}
+
+#links {
+  background-color: #c3f07f;
+  color: #000000
+}
+
+
+
+/* ======================= Style Exceptions */
+#intro p {
+  text-align: justify
+}
