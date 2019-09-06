@@ -81,3 +81,17 @@ body {
 #intro p {
   text-align: justify
 }
+
+
+
+/* ======================= Links */
+
+#links a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#links a:hover {
+  text-decoration: underline;
+}
