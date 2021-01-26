@@ -7,33 +7,33 @@
 
 #tabs ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 #tabs a {
-  text-decoration: none;
-  color: #FFFFFF;
   background-color: none;
+  color: #FFFFFF;
   font-weight: bold;
+  text-decoration: none;
   transition: 0.2s;
 }
 
 #tabs a:hover {
-  color: #000000;
   background-color: #FFFFFF;
+  color: #000000;
   transition: 0.2s;
 }
 
 #tabs li {
-  border: 1px solid white;
-  color: inherit;
   background-color: inherit;
-  padding: 8px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: inherit;
   float: left;
   margin-left: 5px;
   margin-right: 5px;
-  border-radius: 4px;
+  padding: 8px;
 }
 
 #tabs li:hover {

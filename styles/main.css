@@ -11,16 +11,16 @@ body {
 /* =========== Small Screens */
 @media only screen and (max-width: 768px) {
   .card {
-    width: auto;
     margin: 15px;
+    width: auto;
   }
 }
 
 /* =========== Large Screens */
 @media only screen and (min-width: 768px) {
   .card {
-    width: 768px;
     margin: 15px auto 15px auto;
+    width: 768px;
   }
 }
 
@@ -28,20 +28,20 @@ body {
 
 /* ======================= Cards */
 .card {
-  padding: 15px;
   border: 1px solid black;
-  box-shadow: 5px 5px 10px grey;
   border-radius: 8px;
+  box-shadow: 5px 5px 10px grey;
+  padding: 15px;
 }
 
 .card h1 {
-  margin: 0px 0px 0px 0px;
   font-size: 36px;
+  margin: 0px 0px 0px 0px;
 }
 
 .card h2 {
-  margin: 0px 0px 0px 0px;
   font-size: 26px;
+  margin: 0px 0px 0px 0px;
   text-transform: lowercase;
 }
 
@@ -50,8 +50,8 @@ body {
 }
 
 .card h3 {
-  margin: 10px 0px 0px 0px;
   font-size: 20px;
+  margin: 10px 0px 0px 0px;
 }
 
 .card p {
